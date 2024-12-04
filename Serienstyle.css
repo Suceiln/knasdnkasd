@@ -1,0 +1,167 @@
+@font-face {
+font-family: 'KoratakiBold';
+src:url(korataki_bold.otf)
+}
+
+body {
+background: url('sunsetbg.jpg') no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+}
+
+.header-main {
+width: 100%;
+height: 60px;
+background-color: white;
+display: flex;
+justify-content: space-between;
+}
+
+a {
+cursor: pointer;
+}
+
+.header-main-logo {
+width: fit-content;
+height: 100%;
+background-color: white;
+padding-left: 60px;
+display: flex;
+}
+
+.header-main-logo img {
+height: 140px;
+align-self: center;
+}
+
+.header-main-nav {
+width: fit-content;
+height: 100%;
+background-color: white;
+}
+
+.header-main-nav ul {
+list-style: none;
+}
+
+.header-main-nav ul li {
+display: inline;
+float: left;
+margin-left: 30px;
+position: relative;
+
+}
+ .header-main-nav ul li a{
+display: block;
+padding: 0 10px 0 10px;
+font-family: 'KoratakiBold';
+text-decoration: none;
+line-height: 30px;
+color: black;
+}
+
+.header-main-pougelandia {
+width: fit-content;
+height: 100%;
+background-color: white;
+padding-right: 60px;
+display: flex;
+}
+
+.header-main-pougelandia img {
+height: 140px;
+align-self: center;
+}
+
+.Overskrift {
+font-family: 'KoratakiBold';
+color: white;
+}
+
+.container {
+display: flex;
+margin-bottom: 50px;
+height: 565px;
+}
+
+.Tekstboks {
+display: flex;
+justify-content: center;
+}
+
+.kortsagt {
+font-family: 'KoratakiBold';
+border: 5px solid #f0592b;
+background-color: #f8971c;
+padding: 20px;
+border-radius: 10px;
+color: white;
+width: 500px;
+height: 50px;
+text-align: center;
+font-size: 50px;
+margin-top: 20px;
+}
+
+.kortsagt {
+text-shadow: 3px 3px 0px rgba(0, 0, 0, 1);
+}
+
+.Textbox {
+display: flex;
+justify-content: center;
+}
+
+.Beskrivelse {
+font-family: 'KoratakiBold';
+border: 5px solid #f0592b;
+background-color: #f8971c;
+padding: 20px;
+border-radius: 10px;
+color: white;
+width: 1000px;
+height: 50px;
+text-align: center;
+font-size: 18px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.Beskrivelse {
+text-shadow: 3px 3px 0px rgba(0, 0, 0, 1);
+}
+
+.knapp-container {
+text-align: center;
+margin: 0 auto;
+width: 70%;
+max-witdh: 500px;
+min-witdh: 300px;
+}
+
+.knapp {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: #f8971c;
+border: 5px solid #f0592b;
+color: white;
+border-radius: 5px;
+padding: 15px;
+text-decoration: none;
+margin: 30px;
+font-size: 50px;
+font-family: 'KoratakiBold';
+text-align: center;
+height: 100px;
+}
+
+.knapp {
+text-shadow: 3px 3px 0px rgba(0, 0, 0, 1);
+}
+

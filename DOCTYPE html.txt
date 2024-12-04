@@ -1,0 +1,9 @@
+<DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href=Serienstyle.css>
+</head>
+
+<body>
+
+</body>
